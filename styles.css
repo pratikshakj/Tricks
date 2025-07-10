@@ -1,0 +1,51 @@
+ .shape {
+      margin: 20px;
+      display: inline-block;
+    }
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: teal;
+    }
+    .rectangle {
+      width: 150px;
+      height: 80px;
+      background-color: tomato;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+    }
+    .oval {
+      width: 150px;
+      height: 80px;
+      background-color: purple;
+      border-radius: 50%;
+    }
+    .rounded-rectangle {
+      width: 150px;
+      height: 80px;
+      background-color: orange;
+      border-radius: 15px;
+    }
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid green;
+    }
+    .diamond {
+      width: 80px;
+      height: 80px;
+      background-color: crimson;
+      transform: rotate(45deg);
+    }
+    .pill {
+      width: 200px;
+      height: 60px;
+      background-color: darkcyan;
+      border-radius: 9999px;
+    }
